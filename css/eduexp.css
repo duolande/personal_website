@@ -1,0 +1,54 @@
+/*描述性文字区域样式设置*/
+blockquote{
+    border:1px dashed white;
+    border-radius: 1em;
+    font-size:16px;
+    line-height: 25px;
+    margin:0 11px;
+    padding:10px 9px;
+    color:#fff;
+}
+
+
+/*主体样式设置*/
+#edu{
+    background: url(../img/eduexp/学校.JPG);
+    display: inline-block;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Mecrosoft Yahei';
+}
+#edu>div{
+    width:100%;
+    display:inline-block;
+    margin:15px auto;
+}
+/*标题样式设置*/
+#edu .bt{
+    font-size: 25px;
+    margin: 5px auto;
+    line-height: 30px;
+    text-align: center;
+} 
+
+/*童年部分的样式设置*/
+.xx{
+    width:990px;
+    margin:0 auto;
+    display: table;
+}
+
+/*童年部分内部的三个区域样式设置*/
+.float{
+    display: table-cell;
+    margin:5px 5px 10px;
+}
+
+/*童年部分内部的三个区域的标题的样式设置*/
+.float .xbt{
+    font-size: 20px;
+    margin-top:3px;
+    margin-bottom: 2px;
+    line-height: 25px;
+    text-align: center;
+}

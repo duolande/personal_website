@@ -1,0 +1,118 @@
+/*大标题样式设置*/
+.dbt{
+    font-family: "华文行楷";
+    width:60%;
+    margin:0px auto 15px;
+}
+.dbt p{
+    padding-top:15px;
+    font-size:50px;
+    line-height: 60px;
+    text-align: center;
+    color:#333;
+}
+
+/*对导航下面的图片轮播样式进行设置*/
+#htindro{
+    background-image: url(../img/htindro/古城墙.jpg);
+    background-size:cover;
+}
+#car-dot{
+    width:60%;
+    margin:5px auto 0;
+}
+/*图片样式设置*/
+#carousel{
+    width:100%;
+    margin: 0 auto;
+}
+#carousel img{
+    width:100%;
+    height:350px;
+    margin:auto;
+    padding-top:5px;
+    padding-bottom: 1px;
+    display:none;
+}
+/*显示的第一张图片*/
+#carousel img.first{
+    display:block;
+}
+
+/*点样式设置*/
+#car-dot .dot{
+    height:15px;
+    list-style: none;
+    margin:3px auto;
+    text-align: center;
+}
+
+#car-dot .dot div{
+    display:inline-block;
+    margin:0 auto;
+    height:100%;
+
+}
+
+#car-dot .dot .li-dot{
+    float: left;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    margin:0 15px;
+    background-color:#7b8b96;
+}
+#car-dot .dot div .select{
+    background-color:white;
+}
+
+
+/*文字部分*/
+/*字体等CSS样式设置*/
+#nr{
+    display:inline-block;
+    font-family: "宋体";
+}
+
+/*总结文字的样式*/
+#nr .zj{
+    width:90%;
+    padding:15px;
+    margin:0 auto;
+    background-color: rgba(115, 135, 138, 0.788);
+    border-radius: 10px;
+}
+
+#nr .zj blockquote{
+    font-size:22px;
+    line-height: 30px;
+    padding:15px;
+    font-weight: 550;
+    color:#333;
+    border:1px dashed #333;
+    border-radius: 10px;
+}
+/*叙述性文字样式*/
+.ms{/*对风景介绍整个框架的一些设置*/
+    width:90%;
+    margin:20px auto;
+    background-color: rgba(102, 157, 168, 0.795);
+    border-radius: 15px;
+}
+
+.ms .fbms{/*每个介绍板块的样式设置*/
+    padding:10px;
+    
+}
+
+.ms .fbms .xbt{/*每部分介绍的小标题设置*/
+    font-size:20px;
+    font-weight: 650;
+}
+
+.ms .fbms .js{/*每部分介绍的内容设置*/
+    margin: 10px auto 0px;
+    padding: 5px 17px;
+    font-size: 17px;
+    line-height: 25px;
+}

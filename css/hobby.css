@@ -1,0 +1,39 @@
+/*整体内容设置*/
+#hobby {
+    font-family: "宋体";
+    background-color: rgba(166, 190, 212, 0.774);
+}
+
+#hobby>div{
+    width:85%;
+    margin:10px auto;
+}
+
+/*标题设置*/
+#hobby .bt{
+    font-size:20px;
+    line-height: 25px;
+    font-weight: 600;
+    margin:10px 10px 5px;
+    padding-top: 10px;
+}
+
+/*照片样式设置*/
+#hobby .pic{
+    float: right;
+}
+#hobby img{
+    height: 160px;
+    position: relative;
+    top:-10px;
+    left:10px;
+}
+
+
+/*每个div模块中的内容样式设置*/
+#hobby .nr{
+    font-size:16px;
+    line-height: 25px;
+    padding:10px;
+}
+

@@ -1,0 +1,245 @@
+/*基础设定，清除浏览器自带的样式*/
+html, body, div, span,p, blockquote, a, img, ul, li,form, label, table, tbody, tr, th, td, nav{margin: 0;padding: 0;}
+nav {display: block;}
+div{font-size: 0;}
+:focus { outline:0;}
+img { border:0;}
+body {line-height: 1;}
+ul {list-style: none;}
+table {	border-collapse: collapse;	border-spacing: 0;border:2px solid #cce8ff;padding:2px;width:100%;}
+.clear { width:100%; height:0; line-height:0; font-size:0; overflow:hidden; clear:both; display:block; _display:inline;}
+.none { display:none;}
+a{text-decoration: none;}
+.hidden { visibility:hidden;}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.clearfix{display: block; *zoom:1;}
+
+/*布局开始*/
+body{
+    background-image: url(../img/index大背景.gif);
+    background-size: cover;
+}
+
+/*主体定位*/
+.middle{
+    width:1000px;
+    margin:0 auto;
+}
+/*全局导航，页头*/
+#header{
+    width:100%;
+    display:inline-block;
+}
+
+#header .img{
+    margin:auto 0;
+    display:inline-block;
+    height:25px;
+}
+
+#header .header{
+    width:955px;
+    height:55px;
+    line-height: 60px;
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 45px;
+    color:#b39858;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+} 
+/*导航样式设置*/
+nav{
+    width:1000px;
+    height:36px;
+    margin: 0 auto;
+}
+
+#header .inner{
+    width:1000px;
+    height:34px;
+    margin:0 auto;
+}
+
+#header ul{
+    width:100%;
+    height:100%;
+}
+
+#header li{
+    float:left;
+    width:25%;
+    height:100%;
+    position: relative;
+    vertical-align:bottom;
+}
+
+/*导航中的a标签设置*/
+#header li a{
+    width:100%;
+    height:100%;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: 550;
+    font-family: "Microsoft Yahei";
+    display: block;
+    line-height: 28px;
+    text-align: center;
+}
+/*鼠标移至导航某个链接上时链接的变化*/
+#header li a:hover{
+    background-color:gray;
+}
+
+
+/*主体部分*/
+
+#main{
+    color:#fff;
+    width:100%;
+    display:inline-block;
+    font-family:'Mcrosoft Yahei'
+}
+/*主题部分标题设置*/
+#main .bt{
+    font-size:25px;
+    padding:25px 0 15px 10px;
+    display:inline-block;
+}
+/*个人简介部分设置*/
+#main .perin{
+    width:100%;
+    display:inline-block;
+}
+
+/*个人简介中的内容*/
+#main .perin .nr{
+    margin-left:30px;
+}
+/*个人简介中内容的设置*/
+#main .perin .nr div{
+    display: block;
+    line-height:20px;
+    font-size:16px;
+    height:20px;
+    margin-right: auto;
+    margin:7px 0;
+}
+/*个人简介中每行文字的布局设置*/
+#main .perin .nr div span{
+    display: inline-block;
+}
+/*个人简介中每个简介的伪类元素affter设置*/
+#main .perin span::after{
+    content: "";
+    width:100%;
+    border-bottom: 1px dashed black;
+    bottom: 10px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*求学经历一览表样式*/
+#main .tb{
+    width:90%;
+    margin:0 auto;
+    
+}
+/*求学经历表格中行样式设置*/
+#main table tr{
+    border:1px solid #cce8ff;
+    width:100%;
+    height:30px;
+}
+/*对求学经历表头设置*/
+#main .biaotou{
+    background-color: gray;
+}
+/*对求学经历中的每个表格的样式设置*/
+#main table tr td{
+    border:1px solid #cce8ff;
+    font-size:16px;
+    line-height:100%;
+    width:300px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+}
+
+/*参赛经历样式设置*/
+#main .csjl .tb blockquote{
+    font-size:14px;
+    margin-bottom: 7px;
+    line-height: 20px;
+    zoom:1;
+}
+
+/*页脚表单*/
+/*整体设置*/
+.footer{
+    background-color: rgba(80, 109, 119, 0.144);
+    font-family: "黑体";
+    width: 100%;
+    margin: 5px auto 0;
+}
+
+/*表单中表格等样式的设置*/
+.footer table{
+    width:90%;
+    margin:10px auto 3px;
+}
+
+.footer table tr{
+    border:1px solid #cce8ff;
+}
+
+/*表单中表格的问题一行的样式设置*/
+.footer table .question{
+    background-color: gray;
+    padding-left:10px;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight:550;
+}
+
+/*单选题的选项的样式设置*/
+.footer table ul>li{
+    text-align: left;
+    font-size:12px;
+    line-height: 18px;
+    padding-left:20px;
+    margin-top: 5px;
+}
+
+/*单选选项的按钮设置*/
+.footer table ul li input{
+    vertical-align: top !important;
+}
+
+/*单选选项的解释内容设置*/
+.footer label{
+    display:inline-block;
+    font-family: 'Mcrosoft Yahei';
+}
+
+/*文字描述性问题回答区域样式设置*/
+.answer-text p{
+    display: inline-block;
+    padding:15px 25px 14px 37px;
+}
+
+.answer-text p textarea{
+    width:350px;
+    height:150px;
+}
+
+/*表单提交的按钮区域样式设置*/
+.button{
+    text-align: center;
+}
+
+.button input{
+    margin:5px auto;
+    border-radius: 5px;
+    background-color:#cce8ff;
+} 
